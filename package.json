@@ -1,0 +1,20 @@
+{
+  "name": "Phaser3-Space-Shooter",
+  "version": "1.0.0",
+  "description": "Exploring creating a basic space shooter with Phaser 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbie-em/Phaser3-Space-Shooter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbie-em/Phaser3-Space-Shooter/issues"
+  },
+  "homepage": "https://github.com/Elbie-em/Phaser3-Space-Shooter#readme"
+}
