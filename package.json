@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Elbie-em/Phaser3-Space-Shooter/issues"
   },
-  "homepage": "https://github.com/Elbie-em/Phaser3-Space-Shooter#readme"
+  "homepage": "https://github.com/Elbie-em/Phaser3-Space-Shooter#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
