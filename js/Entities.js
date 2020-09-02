@@ -185,3 +185,13 @@ class CarrierShip extends Entity {
 		this.body.velocity.y = Phaser.Math.Between(50, 100);
 	}
 }
+
+class ScrollingBackground {
+	constructor(scene, key, velocityY) {
+		this.scene = scene;
+		this.key = key;
+		this.velocityY = velocityY;
+
+		this.layers = this.scene.add.group();
+	}
+}
