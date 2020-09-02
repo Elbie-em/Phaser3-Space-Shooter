@@ -39,3 +39,9 @@ class Player extends Entity {
 		this.y = Phaser.Math.Clamp(this.y, 0, this.scene.game.config.height);
 	}
 }
+
+class ChaserShip extends Entity {
+	constructor(scene, x, y) {
+	  super(scene, x, y, "sprEnemy1", "ChaserShip");
+	}
+}
