@@ -16,6 +16,9 @@ class SceneMainMenu extends Phaser.Scene {
   }
 
   create() {
-    this.scene.start("SceneMain");
+    this.sfx = {
+      btnOver: this.sound.add("sndBtnOver"),
+      btnDown: this.sound.add("sndBtnDown")
+    };
   }
 }
