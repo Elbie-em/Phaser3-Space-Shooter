@@ -20,5 +20,11 @@ class SceneMainMenu extends Phaser.Scene {
       btnOver: this.sound.add("sndBtnOver"),
       btnDown: this.sound.add("sndBtnDown")
     };
+
+    this.btnPlay = this.add.sprite(
+      this.game.config.width * 0.5,
+      this.game.config.height * 0.5,
+      "sprBtnPlay"
+    );
   }
 }
