@@ -43,7 +43,7 @@ class SceneMainMenu extends Phaser.Scene {
     }, this);
 
     this.btnPlay.on("pointerup", function() {
-      this.setTexture("sprBtnPlay");
+      this.btnPlay.setTexture("sprBtnPlay");
       this.scene.start("SceneMain");
     }, this);
   }
